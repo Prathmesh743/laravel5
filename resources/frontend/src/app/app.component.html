@@ -1,0 +1,18 @@
+<div class="container-fluid border border-primary">
+  <p>Crud App</p>
+<nav>
+    <ul>
+      <li><a routerLink="/work-list"  routerLinkActive="active">Work List</a></li>
+      <li><a routerLink="/product-list"  routerLinkActive="active">Post List</a></li>
+    </ul>
+</nav>
+  <!-- The routed views render in the <router-outlet>-->
+
+    <div class= "container">
+      <div class="row">
+        <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6">
+          <router-outlet></router-outlet>
+        </div>
+    </div>
+    </div>
+</div>

@@ -1,0 +1,19 @@
+<p>posts works!</p>
+<table class="table table-striped">
+    <thead>
+      <tr>
+        <th scope="col">userId</th>
+        <th  scope="col">id</th>
+        <th  scope="col">title</th>
+        <th  scope="col">body</th>
+      </tr>
+    </thead>
+    <tbody>
+       <tr *ngFor= "let item of post">
+           <td  scope="row">{{item.userId}}</td>
+           <td scope="row">{{item.id}}</td>
+           <td scope="row">{{item.title}}</td>
+           <td scope="row">{{item.body}}</td>
+       </tr>
+    </tbody>
+  </table>
